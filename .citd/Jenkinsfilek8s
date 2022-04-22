@@ -17,7 +17,7 @@ pipeline {
 	environment {
 		GITHUB_OWNER = 'microchip-pic-avr-examples'
 		GITHUB_URL ='https://github.com/mchpTestArea/pic18f16q41-uart-button-mplab-mcc'
-		BITBUCKET_URL = 'https://bitbucket.microchip.com/users/i64056/repos/pic18f16q41-uart-button-mplab-mcc/browse'
+		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/~i64056/pic18f16q41-uart-button-mplab-mcc.git'
 		SEMVER_REGEX = '^(0|[1-9]\\d*)+\\.(0|[1-9]\\d*)+\\.(0|[1-9]\\d*)+$'
 		ARTIFACTORY_SERVER = 'https://artifacts.microchip.com:7999/artifactory'
 	}
